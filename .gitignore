@@ -37,5 +37,9 @@ testem.log
 .DS_Store
 Thumbs.db
 
+# Yarn temporary files
+.pnp.js
+.yarn/
+
 # Tool output
 *.log
