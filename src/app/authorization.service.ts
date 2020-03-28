@@ -62,7 +62,7 @@ export class AuthorizationService {
     let authorizationServiceConfiguration: AuthorizationServiceConfiguration | null = null;
     let tokenResponse: TokenResponse | null = null;
     let userInfo: UserInfo | null = null;
-    let codeVerifier: string = null;
+    const codeVerifier: string = null;
 
     // verify that we are still working with the same IDP, since a reload may
     // have been due to an underlying configuration change
@@ -102,7 +102,7 @@ export class AuthorizationService {
     });
     // monitor changes in metadata/tokens to possibly clear dependent values,
     // and to fetch userInfo.
-    combineLatest(this._serviceConfigs, this._tokenResponses)
+    combineLatest([this._serviceConfigs, this._tokenResponses])
     .subscribe(
       ([configuration, token]: [AuthorizationServiceConfiguration, TokenResponse]) => {
 

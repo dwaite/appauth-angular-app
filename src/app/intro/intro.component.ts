@@ -20,7 +20,7 @@ import { IntroDisplayService } from '../intro-display.service';
 export class IntroComponent implements OnInit {
 
   constructor(public introDisplay: IntroDisplayService) {}
-  
+
   dismiss() {
     this.introDisplay.dismissed = true;
   }
