@@ -1675,10 +1675,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:13.9.5":
-  version: 13.9.5
-  resolution: "@types/node@npm:13.9.5"
-  checksum: 2/8cbe18b1f55197573b112aef21250f09fa3eb0e83aa22dcff87c62be54fe78288aeb1385b2bfa013ece29698a339246743e5ba49af9e0168bcfae76abe3bb076
+"@types/node@npm:13.9.8":
+  version: 13.9.8
+  resolution: "@types/node@npm:13.9.8"
+  checksum: 2/72610b1cca1ecb1b28ef493fac3a67975e32a814ec5dac888d55e9374c9475664ec797875ea7cb941b94a5016c9d4b0e4d40e60cc9793ef6aa279d3bd1e41fd3
   languageName: node
   linkType: hard
 
@@ -2194,7 +2194,7 @@ __metadata:
     "@openid/appauth": ^1.2.7
     "@types/jasminewd2": ^2.0.8
     "@types/jquery": ^3.3.34
-    "@types/node": 13.9.5
+    "@types/node": 13.9.8
     codelyzer: ^5.2.2
     core-js: ~3.6.4
     fstream: ~1.0.12
@@ -2212,7 +2212,7 @@ __metadata:
     rxjs: ^6.5.4
     ts-node: ^8.8.1
     tslib: ^1.11.1
-    tslint: ^6.1.0
+    tslint: ~6.1.1
     typescript: ^3.8.3
     zone.js: ~0.10.3
   dependenciesMeta:
@@ -7841,6 +7841,17 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"mkdirp@npm:^0.5.3":
+  version: 0.5.4
+  resolution: "mkdirp@npm:0.5.4"
+  dependencies:
+    minimist: ^1.2.5
+  bin:
+    mkdirp: bin/cmd.js
+  checksum: 2/914b8b8b1c34128c06ddd41a1d33f1515f0dde80ba233e321385eedcd4cc71bc4a4b66c19c7fde708c3e7f22969403b371b81663761cff8b01a9a72c2b7bdd12
+  languageName: node
+  linkType: hard
+
 "mkdirp@npm:^1.0.3":
   version: 1.0.3
   resolution: "mkdirp@npm:1.0.3"
@@ -11666,9 +11677,9 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"tslint@npm:^6.1.0":
-  version: 6.1.0
-  resolution: "tslint@npm:6.1.0"
+"tslint@npm:~6.1.1":
+  version: 6.1.1
+  resolution: "tslint@npm:6.1.1"
   dependencies:
     "@babel/code-frame": ^7.0.0
     builtin-modules: ^1.1.1
@@ -11678,7 +11689,7 @@ fsevents@~2.1.2:
     glob: ^7.1.1
     js-yaml: ^3.13.1
     minimatch: ^3.0.4
-    mkdirp: ^0.5.1
+    mkdirp: ^0.5.3
     resolve: ^1.3.2
     semver: ^5.3.0
     tslib: ^1.10.0
@@ -11687,7 +11698,7 @@ fsevents@~2.1.2:
     typescript: ">=2.3.0-dev || >=2.4.0-dev || >=2.5.0-dev || >=2.6.0-dev || >=2.7.0-dev || >=2.8.0-dev || >=2.9.0-dev || >=3.0.0-dev || >= 3.1.0-dev || >= 3.2.0-dev"
   bin:
     tslint: bin/tslint
-  checksum: 2/5e6adfe7c36a7b3c5ee5d4210ed3ec08a361a9142a5639a6adff861d4cfa4a75fde09a96c9cd740af10002c58e681403bad2b8608ccb204ff5bd16d74dbd97d6
+  checksum: 2/f2865a5f2ccc5b9f098cb4aa93ca7850d85984136d652c2bb8436ec1646a7c2fe0056c5bd5ef48ac883f30888ea04ef5a5718ab405d5e7ea8f14a3bb95e37745
   languageName: node
   linkType: hard
 
