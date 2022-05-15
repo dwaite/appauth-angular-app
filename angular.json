@@ -108,5 +108,7 @@
       }
     }
   },
-  "defaultProject": "appauth-angular-app"
+  "cli": {
+    "analytics": false
+  }
 }
